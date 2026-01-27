@@ -1,4 +1,4 @@
-# SQL
+# Main Idea Working With SQL
 
 
 
