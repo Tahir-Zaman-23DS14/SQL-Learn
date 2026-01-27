@@ -27,8 +27,11 @@ User / App → SQL → DBMS → Database (on Server)
 One-line memory trick
 
 Server = Machine
+<br>
 Database = Data
+<br>
 DBMS = Manager
+<br>
 SQL = Language
 
 This structure is clean enough for tests, strong enough for interviews, and accurate enough for real systems like MySQL, PostgreSQL, and SQL Server.
