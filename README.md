@@ -1,29 +1,29 @@
 # Main Idea Working With SQL
 
 
-Server = A powerful computer
+1 Server = A powerful computer
 → Where everything runs and data is physically stored
 
-Database = Organized data
+2 Database = Organized data
 → Tables, rows, and columns
 → Data lives inside the server
 
-DBMS (Database Management System) = Software
+3 DBMS (Database Management System) = Software
 → Runs on the server
 → Creates and manages the database
 → Controls security and users
 
-SQL (Structured Query Language) = Language
+4 SQL (Structured Query Language) = Language
 → Used to talk to the DBMS
 → Used to insert, read, update, delete data
 
-User / Application = Person or program
+5 User / Application = Person or program
 → Sends SQL commands
-
+#
 Complete Flow (Very Important)
 
 User / App → SQL → DBMS → Database (on Server)
-
+#
 One-line memory trick
 
 Server = Machine
