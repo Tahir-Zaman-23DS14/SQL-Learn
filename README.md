@@ -1,19 +1,37 @@
 # Main Idea Working With SQL
 
 
+Server = A powerful computer
+→ Where everything runs and data is physically stored
 
-Database = A place where data is stored in an organized way.
-→ Example: tables with rows and columns.
+Database = Organized data
+→ Tables, rows, and columns
+→ Data lives inside the server
 
-SQL (Structured Query Language) = A language used to communicate with the database.
-→ Used to insert, read, update, and delete data.
+DBMS (Database Management System) = Software
+→ Runs on the server
+→ Creates and manages the database
+→ Controls security and users
 
-DBMS (Database Management System) = Software that creates, manages, and controls the database.
-→ It allows users to use SQL, keeps data secure, and handles multiple users.
+SQL (Structured Query Language) = Language
+→ Used to talk to the DBMS
+→ Used to insert, read, update, delete data
 
-So the full picture is:
+User / Application = Person or program
+→ Sends SQL commands
 
-User → SQL → DBMS → Database
+Complete Flow (Very Important)
+
+User / App → SQL → DBMS → Database (on Server)
+
+One-line memory trick
+
+Server = Machine
+Database = Data
+DBMS = Manager
+SQL = Language
+
+This structure is clean enough for tests, strong enough for interviews, and accurate enough for real systems like MySQL, PostgreSQL, and SQL Server.
 
 
 
