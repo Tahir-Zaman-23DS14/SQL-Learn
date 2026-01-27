@@ -1,5 +1,5 @@
 # SQL
-This repository is created to practice SQL fundamentals through hands-on coding, with each practice organized into separate folders by its domain.
+
 
 
 Database = A place where data is stored in an organized way.
