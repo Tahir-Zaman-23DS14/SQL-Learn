@@ -14,3 +14,26 @@ DBMS (Database Management System) = Software that creates, manages, and controls
 So the full picture is:
 
 User → SQL → DBMS → Database
+
+
+
+
+
+## ⭐ Support This Repository
+
+If this repository helps you:
+1. ⭐ **Star** the repository
+2. 🍴 **Fork** it for your own use
+3. 🔔 **Watch** for updates
+4. 🐛 **Report** issues or suggestions
+5. 💬 **Share** with other learners
+
+---
+
+<div align="center">
+
+## 🚀 Start Your SQL Journey Today!
+
+**Happy Coding!** 🐍
+
+</div>
