@@ -1,0 +1,10 @@
+-- PREACTISE SQL QURIES 
+-- CHAPTER 2
+
+SELECT *
+ FROM dbo.orders
+
+ SELECT *
+  FROM dbo.orders
+
+  SELECT
