@@ -50,3 +50,17 @@ ORDER BY score DESC
 SELECT * FROM customers
 ORDER BY score DESC ,
 		country ASC
+
+
+
+SELECT * FROM customers
+ORDER BY country ASC,
+		score DESC
+
+
+SELECT 
+country,
+sum(score)
+FROM customers
+GROUP BY country
+
