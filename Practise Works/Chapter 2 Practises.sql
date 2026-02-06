@@ -64,3 +64,12 @@ sum(score)
 FROM customers
 GROUP BY country
 
+
+SELECT
+country,
+sum(score)
+FROM customers
+GROUP BY country
+
+SELECT * FROM customers
+ORDER BY score DESC
