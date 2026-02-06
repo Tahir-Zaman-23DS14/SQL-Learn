@@ -115,6 +115,12 @@ WHERE score ! = 0
 GROUP BY country
 HAVING AVG(score) >450
 
+SELECT TOP(3) *
+FROM customers;
+
+
+
+
 -- Q1 Write a query to find each Country and the total number of students in that Country, but only include Countries having more than 3 students.
 -- Sort the result by total students in descending order.
 SELECT 
