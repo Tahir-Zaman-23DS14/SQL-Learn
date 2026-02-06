@@ -73,3 +73,19 @@ GROUP BY country
 
 SELECT * FROM customers
 ORDER BY score DESC
+
+
+SELECT 
+max(ID) AS TOTAL_ID , 
+sum(score) AS TOTAL_SCORE
+FROM customers
+
+
+SELECT
+count(id) AS ID_for_Each_Country,
+country,
+sum(score) AS Each_country_total_Score
+from customers
+GROUP BY country
+
+SELECT * FROM customers
