@@ -65,6 +65,11 @@ sum(score)
 FROM customers
 GROUP BY country
 
+SELECT DISTINCT
+country
+FROM customers
+
+
 
 SELECT
 country,
@@ -169,6 +174,10 @@ FROM customers
 WHERE score > 40
 GROUP BY country
 HAVING MIN(score) > 50
+
+
+
+
 
 
 /*
