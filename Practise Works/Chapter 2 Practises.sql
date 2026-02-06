@@ -34,11 +34,12 @@ SELECT *
 FROM customers
 WHERE country = 'Germany'
 
-SELECT *
+SELECT 
  first_name,
  country
  FROM customers
 WHERE country = 'Germany'
+
 
 
 SELECT * FROM customers
