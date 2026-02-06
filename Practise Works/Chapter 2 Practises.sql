@@ -147,3 +147,29 @@ HAVING COUNT(id) >= 2
 
 -- Q4 Write a query to find the maximum score in each Country, but exclude Countries where the maximum score is below 60.
 --  Sort the output by maximum score ascending.
+
+SELECT 
+	country,
+	MAX(score) AS Maximun_score
+FROM customers
+WHERE score != 0
+GROUP BY country
+HAVING MAX(score) ! < 60
+ORDER BY  MAX(SCORE) ASC
+SELECT * FROM customers
+
+-- Q5 Write a query to list Countries and the minimum score achieved in each, but only consider students whose score is greater than 40.
+-- Display only those Countries where the minimum score is greater than 50.
+
+SELECT
+country,
+MIN(score)
+FROM customers
+WHERE score > 40
+GROUP BY country
+HAVING MIN(score) > 50
+
+
+
+-- Write a query to find the total number of students per Country, but ignore students whose score is less than 30.
+--  Order the results alphabetically by Country name.
