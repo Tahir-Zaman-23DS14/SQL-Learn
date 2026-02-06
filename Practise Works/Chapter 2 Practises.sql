@@ -170,6 +170,23 @@ GROUP BY country
 HAVING MIN(score) > 50
 
 
+/*
+-- Q6 Write a query to find the total number of students per Country, but ignore students whose score is less than 30.
+Order the results alphabetically by Country name.
 
--- Write a query to find the total number of students per Country, but ignore students whose score is less than 30.
---  Order the results alphabetically by Country name.
+-- Q7  Write a query to calculate the average score per Country, considering only students from specific Countries (e.g., Pakistan, India),
+and show only those Countries where the average score is below 75.
+
+
+-- Q8 Write a query to find Countries where more than 5 students have a score above 60.
+Display the Country name and the count of such students.
+
+
+-- Q9 Write a query to group students by Country and find the highest score,
+but only for Countries where at least 4 students exist.
+Sort the results by highest score descending.
+
+
+-- Q10  Write a query to find Countries where the difference between the highest and lowest score is greater than 40,
+considering only students with score above 20.
+*/
