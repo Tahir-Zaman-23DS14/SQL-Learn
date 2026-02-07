@@ -20,3 +20,7 @@ ADD email VARCHAR(50) NOT NULL
 
 
 SELECT * FROM persons
+
+-- Remove a column called phone to the persons table
+ALTER TABLE persons
+DROP COLUMN phone
