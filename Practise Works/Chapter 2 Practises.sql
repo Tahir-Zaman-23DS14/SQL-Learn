@@ -182,16 +182,46 @@ GROUP BY country
 HAVING MIN(score) > 50
 
 
+-- Q6 Write a query to find the total number of students per Country, but ignore students whose score is less than 400.
+--Order the results alphabetically by Country name.
+
+
+SELECT
+	country,
+	COUNT(id) AS TOTAL_STUDENT
+     FROM customers
+	 WHERE score >= 300
+	 GROUP BY country
+	 ORDER BY country ASC;
+	
+
+
+
+	-- Q7  Write a query to calculate the average score per Country, considering only students from specific Countries (e.g., Pakistan, India),
+--     and show only those Countries where the average score is below 450.
+
+
+
+	SELECT 
+	country,
+	AVG(score) AS Average_Score 
+	FROM customers
+	WHERE country = 'Germany'
+	GROUP BY country
+	HAVING AVG(score) <= 450
+
+
+
+	
+	SELECT * FROM customers
 
 
 
 
 /*
--- Q6 Write a query to find the total number of students per Country, but ignore students whose score is less than 30.
-Order the results alphabetically by Country name.
 
--- Q7  Write a query to calculate the average score per Country, considering only students from specific Countries (e.g., Pakistan, India),
-and show only those Countries where the average score is below 75.
+
+
 
 
 -- Q8 Write a query to find Countries where more than 5 students have a score above 60.
