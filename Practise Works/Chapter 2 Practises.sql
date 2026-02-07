@@ -228,21 +228,20 @@ SELECT
 
 
 
+	-- Q9 Write a query to group students by Country  and find the highest score,
+	--	but only for Countries where at least 2 students exist.
+	--	Sort the results by highest score descending.
 
 
-
+	SELECT 
+	country,
+	COUNT(score) AS Highest_score
+	FROM customers
+	GROUP BY country
+	HAVING COUNT(id) >=2
+	ORDER BY Highest_score DESC
 /*
-
-
-
-
-
-
--- Q9 Write a query to group students by Country and find the highest score,
-but only for Countries where at least 4 students exist.
-Sort the results by highest score descending.
-
-
+================================================================================================
 -- Q10  Write a query to find Countries where the difference between the highest and lowest score is greater than 40,
 considering only students with score above 20.
 */
