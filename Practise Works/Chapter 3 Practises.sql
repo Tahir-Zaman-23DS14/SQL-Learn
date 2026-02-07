@@ -24,3 +24,13 @@ SELECT * FROM persons
 -- Remove a column called phone to the persons table
 ALTER TABLE persons
 DROP COLUMN phone
+
+-- Add a new column called phone to the persons table
+
+ALTER TABLE persons
+ADD phone VARCHAR(15)
+
+-- DELETE Entire Table persons
+DROP TABLE persons
+
+
