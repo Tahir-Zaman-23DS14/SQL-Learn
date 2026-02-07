@@ -196,8 +196,7 @@ SELECT
 	
 
 
-
-	-- Q7  Write a query to calculate the average score per Country, considering only students from specific Countries (e.g., Pakistan, India),
+-- Q7  Write a query to calculate the average score per Country, considering only students from specific Countries (e.g., Pakistan, India),
 --     and show only those Countries where the average score is below 450.
 
 
@@ -212,8 +211,22 @@ SELECT
 
 
 
+
+	
+-- Q8 Write a query to find Countries where more than 2 students have a score above 60.
+--    Display the Country name and the count of such students.
 	
 	SELECT * FROM customers
+
+SELECT 
+	country,
+	COUNT(id) AS  Student_COUNT
+	FROM customers
+	WHERE score > 60
+	GROUP BY country
+	HAVING COUNT(id) = 2
+
+
 
 
 
@@ -223,9 +236,6 @@ SELECT
 
 
 
-
--- Q8 Write a query to find Countries where more than 5 students have a score above 60.
-Display the Country name and the count of such students.
 
 
 -- Q9 Write a query to group students by Country and find the highest score,
