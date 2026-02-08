@@ -33,6 +33,24 @@ SELECT * FROM Students;
 
 DROP TABLE students;
 
+CREATE TABLE products(
+ID INT NOT NULL, 
+Brand VARCHAR(50),
+Device VARCHAR(50),
+Model_Device VARCHAR(50),
+Country_of_Origin VARCHAR(50),
+Date_of_Release VARCHAR(50),
+Price_USD INT,
+CONSTRAINT pk_products PRIMARY KEY (ID));
 
+DROP TABLE products
 
+SELECT * FROM products
 
+BULK INSERT products
+FROM 'D:\Git-Hub\SQL\Practise Works\data Set for Practise Queries\Technological-Products-Sample-Data.csv'
+WITH (
+    FIRSTROW = 2,
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '\n'
+);
