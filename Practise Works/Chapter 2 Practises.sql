@@ -240,8 +240,14 @@ SELECT
 	GROUP BY country
 	HAVING COUNT(id) >=2
 	ORDER BY Highest_score DESC
-/*
-================================================================================================
--- Q10  Write a query to find Countries where the difference between the highest and lowest score is greater than 40,
-considering only students with score above 20.
-*/
+
+-- Write a query to display Country and the average score of students in each country.
+--  Show only those countries where the average score is greater than 430.
+	
+	SELECT 
+	country,
+	AVG(score) AS Average_Score
+	FROM customers
+	GROUP BY country
+	HAVING AVG(score) > 430
+	SELECT*FROM customers
