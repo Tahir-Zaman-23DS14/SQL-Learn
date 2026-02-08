@@ -281,12 +281,12 @@ ORDER BY min(score) ASC
 -- Write a query to display Country and the total score of all students in that country.
 -- Exclude students whose score is less than 770.
 
-	SELECT 
-	country,
-	Sum(score) AS Total_Score
-	FROM customers
-	GROUP BY country
-	HAVING sum(score) >770
+SELECT 
+    country,
+    SUM(score) AS total_score
+FROM customers
+WHERE score >= 770
+GROUP BY country;
 
 --Q14
 -- Write a query to find countries where exactly 2 students have scored above 80.
