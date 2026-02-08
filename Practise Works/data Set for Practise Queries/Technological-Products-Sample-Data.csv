@@ -1,0 +1,31 @@
+ID,Brand,Device,Model,Country of Origin,Date of Release,Price (USD)
+1,Apple,iPhone,13 Pro Max,United States,2021/24/22,1099
+2,Samsung,Galaxy,S21 Ultra,South Korea,2021/24/10,1199
+3,Google,Pixel,6 Pro,United States,2021/24/11,899
+4,Sony,PlayStation,5,Japan,2021/24/12,499
+5,Microsoft,Surface,Laptop 4,United States,2021/24/13,999
+6,Dell,XPS,13,United States,2021/24/14,999
+7,HP,Spectre,x360,United States,2021/24/15,1349
+8,Lenovo,ThinkPad,X1 Carbon,China,2021/24/16,1429
+9,Asus,ROG,Zephyrus G14,Taiwan,2021/24/17,1499
+10,Acer,Predator,Helios 300,Taiwan,2021/24/18,1299
+11,Apple,MacBook,Pro 14-inch,United States,2021/24/19,1999
+12,Samsung,Odyssey,G9,South Korea,2021/24/20,1699
+13,Google,Pixelbook,Go,United States,2021/24/21,649
+14,Sony,Xperia,1 III,Japan,2021/24/22,1299
+15,Microsoft,Xbox,Series X,United States,2021/24/23,499
+16,Dell,Alienware,m15 R5,United States,2021/24/24,1999
+17,HP,Pavilion,x360,United States,2021/24/25,749
+18,Lenovo,IdeaPad,5 Pro,China,2021/24/26,999
+19,Asus,ZenBook,14,Taiwan,2021/24/27,799
+20,Acer,Swift,3,Taiwan,2021/24/28,699
+21,Apple,iPad,Pro 12.9-inch,United States,2021/24/29,1099
+22,Samsung,Galaxy,Tab S7+,South Korea,2021/24/30,849
+23,Google,Nest,Hub Max,United States,2021/24/31,229
+24,Sony,WH,1000XM4,Malaysia,2021/24/32,349
+25,Microsoft,Surface,Pro 8,United States,2021/24/33,899
+26,Dell,UltraSharp,U2720Q,China,2021/24/34,499
+27,HP,Elite,Dragonfly,United States,2021/24/35,1799
+28,Lenovo,Legion,7i,China,2021/24/36,1499
+29,Asus,TUF,Gaming A15,Taiwan,2021/24/37,1199
+30,Acer,Aspire,5,Taiwan,2021/24/38,599
