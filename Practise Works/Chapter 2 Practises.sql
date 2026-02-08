@@ -266,6 +266,11 @@ SELECT
 --	Write a query to find the minimum score obtained by students in each country.
 --   Sort the result by minimum score in ascending order.
 
+
+
+SELECT * FROM customers
+
+
 SELECT 
 country,
 min(score)	AS minimum_Score
