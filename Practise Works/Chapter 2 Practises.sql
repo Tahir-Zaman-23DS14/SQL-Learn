@@ -263,3 +263,12 @@ SELECT
 	HAVING COUNT(id) >=2 
 
 
+--	Write a query to find the minimum score obtained by students in each country.
+--   Sort the result by minimum score in ascending order.
+
+SELECT 
+country,
+min(score)	AS minimum_Score
+FROM customers
+GROUP BY country
+ORDER BY min(score) ASC
