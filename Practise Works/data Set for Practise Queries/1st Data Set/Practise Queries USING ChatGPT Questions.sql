@@ -43,9 +43,8 @@ Date_of_Release VARCHAR(50),
 Price_USD INT,
 CONSTRAINT pk_products PRIMARY KEY (ID));
 
-DROP TABLE products
 
-SELECT * FROM products
+
 
 BULK INSERT products
 FROM 'D:\Git-Hub\SQL\Practise Works\data Set for Practise Queries\Technological-Products-Sample-Data.csv'
@@ -54,3 +53,28 @@ WITH (
     FIELDTERMINATOR = ',',
     ROWTERMINATOR = '\n'
 );
+
+
+/* ============================================= HERE WE GO FOR PRACTISE ================================================== */
+
+
+--Q1 Display all products manufactured in United States.
+
+SELECT 
+	Model_Device
+FROM products
+WHERE Country_of_Origin = 'United States'
+
+--Q2 Show brand, device, and price_usd for products priced above 1000 USD.
+
+SELECT 
+Brand,
+Device,
+Price_USD
+FROM products
+WHERE Price_USD > 1000
+
+
+
+
+SELECT * FROM products
