@@ -251,3 +251,15 @@ SELECT
 	GROUP BY country
 	HAVING AVG(score) > 430
 	SELECT*FROM customers
+
+	-- Write a query to find the total number of students in each country.
+	-- Display only the countries that have more than 2 students.
+
+	SELECT 
+	country,
+	COUNT(id) AS Total_Student
+	FROM customers
+	GROUP BY country
+	HAVING COUNT(id) >=2 
+
+
