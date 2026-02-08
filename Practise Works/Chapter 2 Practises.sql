@@ -241,7 +241,7 @@ SELECT
 	HAVING COUNT(id) >=2
 	ORDER BY Highest_score DESC
 
--- Write a query to display Country and the average score of students in each country.
+-- Q10 Write a query to display Country and the average score of students in each country.
 --  Show only those countries where the average score is greater than 430.
 	
 	SELECT 
@@ -252,7 +252,7 @@ SELECT
 	HAVING AVG(score) > 430
 	SELECT*FROM customers
 
-	-- Write a query to find the total number of students in each country.
+	-- Q11  Write a query to find the total number of students in each country.
 	-- Display only the countries that have more than 2 students.
 
 	SELECT 
@@ -263,12 +263,11 @@ SELECT
 	HAVING COUNT(id) >=2 
 
 
---	Write a query to find the minimum score obtained by students in each country.
+-- Q12	Write a query to find the minimum score obtained by students in each country.
 --   Sort the result by minimum score in ascending order.
 
 
 
-SELECT * FROM customers
 
 
 SELECT 
@@ -277,3 +276,25 @@ min(score)	AS minimum_Score
 FROM customers
 GROUP BY country
 ORDER BY min(score) ASC
+
+-- Q13
+-- Write a query to display Country and the total score of all students in that country.
+-- Exclude students whose score is less than 770.
+
+	SELECT 
+	country,
+	Sum(score) AS Total_Score
+	FROM customers
+	GROUP BY country
+	HAVING sum(score) >770
+
+--Q14
+-- Write a query to find countries where exactly 2 students have scored above 80.
+-- Display the country name and the count of such students. 
+
+SELECT
+country,
+Count(id) AS Total_Student
+FROM customers
+Where score > 80
+GROUP BY country
