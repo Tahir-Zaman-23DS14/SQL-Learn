@@ -1,3 +1,6 @@
+--DDL > DATA DEFINATION LANGUAGE
+-- CREATE, ALTER , DROP
+
 /* Create a New table called persons
 with columns: id , person_name , birth,_date, and phone */
 
